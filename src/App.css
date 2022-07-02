@@ -108,3 +108,13 @@ h1 {
   align-self: center;
   background-color: black;
 }
+
+@media only screen and (max-width:400px){
+  .todo-input{
+  padding: auto;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgba(17, 122, 255, 1);
+  outline: none;
+  width: 50%;
+  }
+}
